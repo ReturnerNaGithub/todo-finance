@@ -8,9 +8,9 @@ services:
     startCommand: "npm run start"
     numInstances: 1 # optional (defaults to 1)
     envVars:
-      - key: NEXT_PUBLIC_REPLICACHE_LICENSE_KEY
-        value: TODO_PUT_LICENSE_KEY_HERE
-      - key: DATABASE_URL
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt0ZnRuaW5reHducnhuZmlxbXFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDQ3NTMzMDEsImV4cCI6MjAyMDMyOTMwMX0.HzajheqG-BSGDDeks9AePYrhk4XzEOMWIsML4T3apVk
+        value: Tigers777!todofinance
+      - key: https://ktftninkxwnrxnfiqmqp.supabase.co
         fromDatabase:
           name: replicache-todo
           property: connectionString
