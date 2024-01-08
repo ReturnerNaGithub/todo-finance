@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: replicache-todo
+    name: TodoFinance
     env: node
     region: oregon # optional (defaults to oregon)
     plan: starter # optional (defaults to starter)
@@ -9,7 +9,7 @@ services:
     numInstances: 1 # optional (defaults to 1)
     envVars:
       - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt0ZnRuaW5reHducnhuZmlxbXFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDQ3NTMzMDEsImV4cCI6MjAyMDMyOTMwMX0.HzajheqG-BSGDDeks9AePYrhk4XzEOMWIsML4T3apVk
-        value: Tigers777!todofinance
+        value: true
       - key: https://ktftninkxwnrxnfiqmqp.supabase.co
         fromDatabase:
           name: TodoFinance
