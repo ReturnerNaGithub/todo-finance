@@ -12,9 +12,9 @@ services:
         value: Tigers777!todofinance
       - key: https://ktftninkxwnrxnfiqmqp.supabase.co
         fromDatabase:
-          name: replicache-todo
+          name: TodoFinance
           property: connectionString
 
 databases:
-  - name: replicache-todo
+  - name: TodoFinance
     databaseName: db
