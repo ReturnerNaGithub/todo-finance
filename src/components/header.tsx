@@ -3,10 +3,10 @@ import TodoTextInput from "./todo-text-input";
 
 const Header = ({ onNewItem }: { onNewItem: (text: string) => void }) => (
   <header className="header">
-    <h1>todos</h1>
+    <h1>Najine Finance</h1>
     <TodoTextInput
       initial=""
-      placeholder="What needs to be done?"
+      placeholder="Koliko sva investirala?"
       onSubmit={onNewItem}
     />
   </header>
